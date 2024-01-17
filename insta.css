@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+.sub-main{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    width:80%;
+    margin: 0px auto;  
+}
+.slideshow{
+    grid-column: 1/2;
+    width:400px;
+    height:600px;
+    margin-top: 50px;
+    margin-left: auto;
+    /* margin-right: 20%; */
+    background: url(https://static.cdninstagram.com/images/instagram/xig/homepage/phones/home-phones-2x.png?__makehaste_cache_breaker=73SVAexZgBW);
+    background-size: cover;
+}
+.slideshow img{
+    width:100%;
+    height:100%;
+}
+.info{
+    grid-column: 2/3;
+    margin-left:50px;
+}
+.sub-info{
+    width:300px;
+    height:390px;
+    border: 1px solid lightgray;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    /* margin-left: 10%; */
+    
+
+}
+.insta-logo{
+    width:100%;
+    height:20%;
+    text-align: center;
+    margin:40px 0px;
+}
+.insta-logo img{
+    width:50%;
+    height:80%;
+    
+}
+.insta-input{
+    width:100%;
+    height:100%;
+    text-align:center;
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+}
+.username, .password{
+    font-size: 12px;
+    width:70%;
+    color: lightgray;
+    border:1px solid lightgray;
+    padding: 10px;
+    text-align: left;
+    margin:0px auto 5px auto; 
+}
+.login{
+    font-size: 14px;
+    color:white;
+    font-weight: 600;
+    width:80%;
+    background-color: rgb(63, 161, 206);
+    border:none;
+    padding: 10px; 
+    border-radius: 10px;
+    margin:10px auto;
+
+}
+.or{
+    font-size: 14px;
+    color:gray;
+    font-weight: 600;
+    margin-bottom: 20px;
+    
+    
+}
+
+.fb_logo{
+    background-color: #4267B2;
+    padding-left:8px;
+    padding-right: 4px;
+    border-radius: 2px;
+    font-size:14px;
+    color:#fff;
+}
+.facebook{
+    color: #4267B2;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.forget-pass{
+    text-decoration: none;
+    font-size: 12px;
+    color:gray;
+}
+.sign-up{
+    border: 1px solid lightgray;
+    width:300px;
+    padding: 20px 0px;
+
+}
+.acc-signup{
+    
+    text-align: center;
+    color:black;
+
+}
+.acc-signup a{
+    color: #4267B2;
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 5px;
+}
+.getapp{
+    text-align: center;
+    width:300px;
+    margin-top:20px;
+
+}
+.google{
+    width:33%;
+    height:30%;
+    margin-right: 10px;
+}
+.microsoft{
+    width:28%;
+    height:30%;
+}
+.getapp-p{
+   margin-bottom: 10px;  
+}
+.bottom{
+    font-size:12px;
+    width:80%;
+    margin:0px auto; 
+    text-align: center;
+    padding-top: 30px;
+}
+.bottom a{
+
+    color:gray;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+}
+.bottom a:hover{
+    text-decoration: underline;
+    color:gray;
+}
+.copyright{
+    color:gray;
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+@media(max-width:874px){
+    .main{
+        display:block;
+        
+    }
+    .slideshow{
+        display:none;
+    }
+    .info{
+        grid-column:1/3;
+    }
+    .sub-info{
+        margin-top: 40px!important;
+        margin:0px auto;
+        height:388px;
+        width:300.4px;
+
+    }
+    .sign-up{
+        margin-top: 20px!important;
+        margin:0px auto;
+        height:30px;
+        width:300.4px;
+    }
+    .getapp{
+        margin-top: 20px!important;
+        margin:0px auto;
+        height:140px;
+        width:300.4px;
+    }
+    .bottom{
+        font-size:12px;
+        width:80%;
+        margin:0px auto; 
+        text-align: center;
+        padding-top: 30px;
+    }
+    .bottom a{
+    
+        color:gray;
+        text-decoration: none;
+        padding: 5px;
+        text-align: center;
+    }
+    .bottom a:hover{
+        text-decoration: underline;
+        color:gray;
+    }
+    .copyright{
+        color:gray;
+        font-size: 14px;
+        padding-top: 10px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    
+}
